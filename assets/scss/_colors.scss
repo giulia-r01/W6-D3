@@ -1,0 +1,15 @@
+body {
+    h1 {
+        color: #f4f4f4
+    }
+    
+}
+
+header .hero {
+    background-color: #640fc5;
+    @include center;
+    padding-bottom: 2em;
+}
+
+$buttons-bg-colors:(blue:#0e6cff, orange:#ff8700, green:#4caf50);
+

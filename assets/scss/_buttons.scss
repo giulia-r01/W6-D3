@@ -1,0 +1,7 @@
+@each $name, $value in $buttons-bg-colors {
+    .#{$name} {
+        background-color: $value;
+        padding: 1.2em;
+        border-radius: 1em;
+    }
+}

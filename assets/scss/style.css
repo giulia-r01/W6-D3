@@ -1,0 +1,177 @@
+/* CSS Reset */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  -webkit-text-size-adjust: none;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2em;
+}
+
+img {
+  border: 1px solid #fff;
+  box-shadow: 3px 3px 7px 2px #888888;
+  border-radius: 1em;
+  margin-top: 1.5em;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+nav ul li {
+  margin-right: 1.5em;
+}
+
+body h1 {
+  color: #f4f4f4;
+}
+
+header .hero {
+  background-color: #640fc5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 2em;
+}
+
+.blue {
+  background-color: #0e6cff;
+  padding: 1.2em;
+  border-radius: 1em;
+}
+
+.orange {
+  background-color: #ff8700;
+  padding: 1.2em;
+  border-radius: 1em;
+}
+
+.green {
+  background-color: #4caf50;
+  padding: 1.2em;
+  border-radius: 1em;
+}
+
+.padding-block-sm {
+  padding: 10px;
+}
+
+.padding-block-no {
+  padding: 35px;
+}
+
+.padding-block-md {
+  padding: 45px;
+}
+
+.padding-block-xl {
+  padding: 60px;
+}
+
+.padding-block-xxl {
+  padding: 80px;
+}
+
+.padding-inline-sm {
+  padding: 5px;
+}
+
+.padding-inline-no {
+  padding: 10px;
+}
+
+.padding-inline-md {
+  padding: 15px;
+}
+
+.padding-inline-xl {
+  padding: 20px;
+}
+
+.padding-inline-xxl {
+  padding: 25px;
+}
+
+.hero > img {
+  animation: fadeInSlideImage1 2s linear 0.2s forwards;
+}
+@keyframes fadeInSlideImage1 {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.hero > h1 {
+  animation: fadeInSlideText1 2.5s linear 0.3s forwards;
+}
+@keyframes fadeInSlideText1 {
+  0% {
+    opacity: 0;
+    transform: translateY(-30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.hero > div button {
+  animation: fadeInSlideButton1 3s linear 0.5s forwards;
+}
+@keyframes fadeInSlideButton1 {
+  0% {
+    opacity: 0;
+    transform: translateY(-40px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}/*# sourceMappingURL=style.css.map */

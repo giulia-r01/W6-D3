@@ -1,0 +1,15 @@
+$sizes-block: (sm:10px, no:35px, md:45px, xl:60px, xxl:80px);
+
+@each $name, $value in $sizes-block {
+    .padding-block-#{$name} {
+        padding: $value
+    }
+}
+
+$sizes-inline: (sm:5px, no:10px, md:15px, xl:20px, xxl:25px);
+
+@each $name, $value in $sizes-inline {
+    .padding-inline-#{$name} {
+        padding: $value
+    }
+}
