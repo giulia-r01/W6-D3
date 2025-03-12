@@ -1,28 +1,28 @@
-@mixin fadeInSlide($duration, $start, $end, $delay, $name) {
+@mixin fadeInDiscesa($durata, $inizio, $fine, $delay, $name) {
     @keyframes #{$name} {
       0% {
         opacity: 0;
-        transform: translateY($start);
+        transform: translateY($inizio);
       }
       100% {
         opacity: 1;
-        transform: translateY($end);
+        transform: translateY($fine);
       }
     }
   
-    animation: #{$name} $duration linear $delay forwards;
+    animation: #{$name} $durata linear $delay forwards;
   }
   
   .hero {
     & > img {
-      @include fadeInSlide(2s, -20px, 0, 0.2s, fadeInSlideImage1);
+      @include fadeInDiscesa(2s, -20px, 0, 0.2s, fadeInDiscesaImg);
     }
   
     & > h1 {
-      @include fadeInSlide(2.5s, -30px, 0, 0.3s, fadeInSlideText1);
+      @include fadeInDiscesa(2.5s, -30px, 0, 0.3s, fadeInDiscesaText);
     }
   
     & > div button {
-      @include fadeInSlide(3s, -40px, 0, 0.5s, fadeInSlideButton1);
+      @include fadeInDiscesa(3s, -40px, 0, 0.5s, fadeInDiscesaButton);
     }
   }

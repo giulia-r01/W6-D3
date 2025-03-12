@@ -137,9 +137,9 @@ header .hero {
 }
 
 .hero > img {
-  animation: fadeInSlideImage1 2s linear 0.2s forwards;
+  animation: fadeInDiscesaImg 2s linear 0.2s forwards;
 }
-@keyframes fadeInSlideImage1 {
+@keyframes fadeInDiscesaImg {
   0% {
     opacity: 0;
     transform: translateY(-20px);
@@ -150,9 +150,9 @@ header .hero {
   }
 }
 .hero > h1 {
-  animation: fadeInSlideText1 2.5s linear 0.3s forwards;
+  animation: fadeInDiscesaText 2.5s linear 0.3s forwards;
 }
-@keyframes fadeInSlideText1 {
+@keyframes fadeInDiscesaText {
   0% {
     opacity: 0;
     transform: translateY(-30px);
@@ -163,9 +163,9 @@ header .hero {
   }
 }
 .hero > div button {
-  animation: fadeInSlideButton1 3s linear 0.5s forwards;
+  animation: fadeInDiscesaButton 3s linear 0.5s forwards;
 }
-@keyframes fadeInSlideButton1 {
+@keyframes fadeInDiscesaButton {
   0% {
     opacity: 0;
     transform: translateY(-40px);
